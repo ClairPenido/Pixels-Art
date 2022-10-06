@@ -1,0 +1,82 @@
+
+body{
+    background-image: url('https://unbounce.com/wp-content/webp-express/webp-images/doc-root/photos/Gradient-Background-1536x1016.png.webp');
+    border: 1px solid rgb(201, 199, 216);
+    box-shadow: rgb(50 50 93 / 25%) 0px 30px 60px -12px inset, rgb(0 0 0 / 30%) 0px 18px 36px -18px inset;
+    margin: 50px;
+}
+.color{
+    font-family: 'Playfair Display', serif;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+#title{
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+}
+.board{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+/* link refericial para table: https://pt.stackoverflow.com/questions/401545/qual-o-uso-apropriado-do-display-table */
+#pixel-board{
+    display: table;
+    background-color: white;
+
+}
+
+#color-palette{
+    width: auto;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    cursor: pointer;
+    }
+.pixel{
+    width: 40px;
+    height: 40px;
+    border: black solid 1px;
+    /* background-color: white; */
+    display: table-cell;
+    background-color: white;
+    
+    
+}
+.color1{
+    background-color: black;
+}
+
+.linha{
+    width: 40px;
+    height: 40px;
+    border: black solid 1px;
+    background-color: white;
+    display: table-row;
+
+}
+
+.first-part{
+text-align: center;
+justify-items: center;
+}
+input{
+    width: 150px;
+    font-family: 'Playfair Display', serif;
+}
+button{
+    cursor: pointer;
+    font-family: 'Playfair Display SC', serif;
+    background-color: rgb(204, 136, 151);
+    border-radius: 8px;
+    border: 1px solid lightpink;
+    
+}
